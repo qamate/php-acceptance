@@ -1,0 +1,21 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - Helper\BrowserStackWebDriver
+
+    config:
+        Helper\BrowserStackWebDriver:
+            host: 'hub-cloud.browserstack.com'
+            port: 80
+            browser: firefox
+            url: 'https://www.famous-smoke.com'
+            capabilities:
+                os: 'WINDOWS'
+                os_version: '7'
+                'browserstack.user': 'andrew1133'
+                'browserstack.key' : 'n4UsPjUQWoB7fsExknx8'
+                'browserstack.debug': true
+                'browserstack.local': true
+                'acceptSslCerts': true
+                'build': 'codeception-local-str'
+                'name': 'codeception-local-str'
