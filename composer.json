@@ -1,0 +1,7 @@
+{
+  "require": {
+    "fzaninotto/faker": "^1.6",
+    "codeception/codeception": "*",
+    "browserstack/browserstack-local": "^1.1"
+  }
+}
